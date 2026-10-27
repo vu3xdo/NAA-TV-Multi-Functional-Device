@@ -1,0 +1,31 @@
+Device,Device pin,ESP32-S3 GPIO / net,Notes
+ILI9341 TFT,SCK,GPIO12,Shared SPI clock (assumed)
+ILI9341 TFT,MOSI / SDI,GPIO11,Shared SPI MOSI (assumed)
+ILI9341 TFT,MISO / SDO,GPIO13,Shared SPI MISO (assumed; some TFT boards do not expose it)
+ILI9341 TFT,CS,GPIO10,Chip select
+ILI9341 TFT,DC / D-C,GPIO9,Data/command
+ILI9341 TFT,RESET / RST,GPIO14,Reset
+ILI9341 TFT,LED / BL,GPIO21,Backlight control; verify module current/voltage requirements
+ILI9341 TFT,VCC,3V3 or module-rated supply,Confirm module specification before connecting
+ILI9341 TFT,GND,GND,Common ground
+XPT2046 Touch,SCK,GPIO12,Shared SPI clock (assumed)
+XPT2046 Touch,MOSI / DIN,GPIO11,Shared SPI MOSI (assumed)
+XPT2046 Touch,MISO / DOUT,GPIO13,Shared SPI MISO (assumed)
+XPT2046 Touch,CS,GPIO7,Touch chip select
+XPT2046 Touch,IRQ,GPIO8,Touch interrupt
+XPT2046 Touch,VCC,3V3 or module-rated supply,Confirm module specification before connecting
+XPT2046 Touch,GND,GND,Common ground
+BMP280,SDA,GPIO15,I2C data
+BMP280,SCL,GPIO16,I2C clock
+BMP280,VCC,3V3,Confirm breakout board specification
+BMP280,GND,GND,Common ground
+KY-040 Encoder,CLK / A,GPIO4,Digital input
+KY-040 Encoder,DT / B,GPIO5,Digital input
+KY-040 Encoder,SW,GPIO6,Digital input
+KY-040 Encoder,+,3V3,Verify board voltage compatibility
+KY-040 Encoder,GND,GND,Common ground
+KY-023 Joystick,VRx,GPIO1,Analog input
+KY-023 Joystick,VRy,GPIO2,Analog input
+KY-023 Joystick,SW,GPIO3,Digital input
+KY-023 Joystick,VCC,3V3,Use 3.3 V to keep analog outputs within ESP32-S3 ADC range
+KY-023 Joystick,GND,GND,Common ground

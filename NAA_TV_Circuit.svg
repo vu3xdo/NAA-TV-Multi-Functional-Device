@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="940" viewBox="0 0 1400 940">
+<rect width="1400" height="940" fill="#fff"/>
+<text x="700" y="42" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold" fill="#18212b">NAA TV — ESP32-S3 Circuit Wiring Reference</text>
+<text x="700" y="70" text-anchor="middle" font-family="Arial" font-size="15" fill="#4b5563">Pin assignments from config.h • physical module pinouts and power ratings must be verified</text>
+<rect x="470" y="115" width="460" height="700" rx="18" fill="#edf4ff" stroke="#315b93" stroke-width="3"/>
+<text x="700" y="153" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#1e3a5f">ESP32-S3 DevKit</text>
+<text x="700" y="181" text-anchor="middle" font-family="Arial" font-size="15" fill="#1e3a5f">Common GND • 3.3 V logic</text>
+<g font-family="Arial" font-size="17" fill="#111827">
+<text x="505" y="235">GPIO12 — SPI SCK</text><text x="505" y="268">GPIO11 — SPI MOSI</text><text x="505" y="301">GPIO13 — SPI MISO</text><text x="505" y="334">GPIO10 — TFT CS</text><text x="505" y="367">GPIO9 — TFT DC</text><text x="505" y="400">GPIO14 — TFT RST</text><text x="505" y="433">GPIO21 — TFT BL</text><text x="505" y="466">GPIO7 — Touch CS</text><text x="505" y="499">GPIO8 — Touch IRQ</text><text x="505" y="532">GPIO15 — I²C SDA</text><text x="505" y="565">GPIO16 — I²C SCL</text><text x="505" y="598">GPIO4 / GPIO5 / GPIO6 — Encoder</text><text x="505" y="631">GPIO1 / GPIO2 / GPIO3 — Joystick</text><text x="505" y="686">3V3 — module supply (verify)</text><text x="505" y="719">GND — common ground</text></g>
+<g fill="#f7fbf5" stroke="#47834a" stroke-width="2.5">
+<rect x="60" y="180" width="320" height="180" rx="12"/><rect x="1020" y="180" width="320" height="180" rx="12"/><rect x="60" y="440" width="320" height="150" rx="12"/><rect x="1020" y="440" width="320" height="150" rx="12"/><rect x="470" y="845" width="460" height="65" rx="10" fill="#fff7e6" stroke="#b7791f"/>
+</g>
+<g font-family="Arial" fill="#18351b">
+<text x="220" y="215" text-anchor="middle" font-size="21" font-weight="bold">ILI9341 TFT</text><text x="220" y="245" text-anchor="middle" font-size="16">SCK GPIO12 • MOSI GPIO11</text><text x="220" y="271" text-anchor="middle" font-size="16">MISO GPIO13 • CS GPIO10</text><text x="220" y="297" text-anchor="middle" font-size="16">DC GPIO9 • RST GPIO14</text><text x="220" y="323" text-anchor="middle" font-size="16">BL GPIO21 • VCC • GND</text>
+<text x="1180" y="215" text-anchor="middle" font-size="21" font-weight="bold">XPT2046 Touch</text><text x="1180" y="245" text-anchor="middle" font-size="16">SCK GPIO12 • MOSI GPIO11</text><text x="1180" y="271" text-anchor="middle" font-size="16">MISO GPIO13 • CS GPIO7</text><text x="1180" y="297" text-anchor="middle" font-size="16">IRQ GPIO8 • VCC • GND</text><text x="1180" y="323" text-anchor="middle" font-size="14">Shared SPI bus assumed</text>
+<text x="220" y="475" text-anchor="middle" font-size="21" font-weight="bold">BMP280 Sensor</text><text x="220" y="510" text-anchor="middle" font-size="16">SDA GPIO15 • SCL GPIO16</text><text x="220" y="540" text-anchor="middle" font-size="16">3V3 • GND</text>
+<text x="1180" y="475" text-anchor="middle" font-size="21" font-weight="bold">KY-040 Encoder</text><text x="1180" y="510" text-anchor="middle" font-size="16">CLK/A GPIO4 • DT/B GPIO5</text><text x="1180" y="540" text-anchor="middle" font-size="16">SW GPIO6 • 3V3 • GND</text>
+<text x="700" y="872" text-anchor="middle" font-size="19" font-weight="bold" fill="#854d0e">KY-023 Joystick: VRx GPIO1 • VRy GPIO2 • SW GPIO3</text><text x="700" y="895" text-anchor="middle" font-size="15" fill="#854d0e">VCC 3V3 • GND</text>
+</g>
+<g stroke="#64748b" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M470 250 H420 V270 H380"/><path d="M470 283 H430 V295 H380"/><path d="M470 316 H440 V320 H380"/><path d="M930 250 H980 V270 H1020"/><path d="M930 283 H990 V295 H1020"/><path d="M930 316 H1000 V320 H1020"/><path d="M470 545 H420 V515 H380"/><path d="M930 580 H980 V515 H1020"/><path d="M700 815 V845"/>
+</g>
+<text x="700" y="932" text-anchor="middle" font-family="Arial" font-size="13" fill="#6b7280">Do not rely on this overview alone as a manufacturing schematic; verify exact board revision, voltage, and backlight requirements.</text>
+</svg>
