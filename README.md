@@ -142,6 +142,15 @@ The exact board selection, library versions, and configuration steps must be con
 
 Actively being refined, with additional improvements and features planned.
 
+## Circuit Diagram
+
+The NAA TV project includes circuit documentation and hardware pin mapping.
+
+- [Circuit Diagram (SVG)](NAA_TV_Circuit.svg)
+- [KiCad Schematic](NAA_TV_Circuit.kicad_sch)
+- [Pin Mapping Table](NAA_TV_Pin_Map.csv)
+- [Circuit Documentation](README_CIRCUIT.md)
+
 ## Author
 
 Kirla Venkata Sai
